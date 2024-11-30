@@ -386,3 +386,50 @@ class funcdeclare:
 
 obj=funcdeclare()
 
+
+#===========================================Drinks===================================================
+
+Thumbsup=Checkbutton(Drinks_F, text='Thumbs Up', variable=var1, onvalue=1, offvalue=0, font=('arial',18,'bold')
+                  ,bg= "Powder Blue", command=obj.chkThumbsup).grid(row=0,sticky=W)
+Redbull=Checkbutton(Drinks_F, text='Red Bull', variable=var2, onvalue=1, offvalue=0, font=('arial',18,'bold')
+                  ,bg= "Powder Blue", command=obj.chkRedbull).grid(row=1,sticky=W)
+Sevenup=Checkbutton(Drinks_F, text='7 Up', variable=var3, onvalue=1, offvalue=0, font=('arial',18,'bold')
+                  ,bg= "Powder Blue", command=obj.chkSevenup).grid(row=2,sticky=W)
+Bira=Checkbutton(Drinks_F, text='Bira', variable=var4, onvalue=1, offvalue=0, font=('arial',18,'bold')
+                  ,bg= "Powder Blue", command=obj.chkBira).grid(row=3,sticky=W)
+Corona=Checkbutton(Drinks_F, text='Corona', variable=var5, onvalue=1, offvalue=0, font=('arial',18,'bold')
+                  ,bg= "Powder Blue", command=obj.chkCorona).grid(row=4,sticky=W)
+Budweiser=Checkbutton(Drinks_F, text='Budweiser', variable=var6, onvalue=1, offvalue=0, font=('arial',18,'bold')
+                  ,bg= "Powder Blue", command=obj.chkBudweiser).grid(row=5,sticky=W)
+Hoegaarden=Checkbutton(Drinks_F, text='Hoegaarden', variable=var7, onvalue=1, offvalue=0, font=('arial',18,'bold')
+                  ,bg= "Powder Blue", command=obj.chkHoegaarden).grid(row=6,sticky=W)
+Heineken=Checkbutton(Drinks_F, text='Heineken', variable=var8, onvalue=1, offvalue=0, font=('arial',18,'bold')
+                  ,bg= "Powder Blue", command=obj.chkHeineken).grid(row=7,sticky=W)
+
+
+#===========================================Entry Box for Drinks===========================================================
+
+txtThumbsup= Entry(Drinks_F,font=('arial',16,'bold'),bd=8, width=6, justify=LEFT, state= DISABLED, textvariable=E_Thumbsup)
+txtThumbsup.grid(row=0,column=1)
+
+txtRedbull= Entry(Drinks_F,font=('arial',16,'bold'),bd=8, width=6, justify=LEFT, state= DISABLED, textvariable=E_Redbull)
+txtRedbull.grid(row=1,column=1)
+
+txtSevenup= Entry(Drinks_F,font=('arial',16,'bold'),bd=8, width=6, justify=LEFT, state= DISABLED, textvariable=E_Sevenup)
+txtSevenup.grid(row=2,column=1)
+
+txtBira= Entry(Drinks_F,font=('arial',16,'bold'),bd=8, width=6, justify=LEFT, state= DISABLED, textvariable=E_Bira)
+txtBira.grid(row=3,column=1)
+
+txtCorona= Entry(Drinks_F,font=('arial',16,'bold'),bd=8, width=6, justify=LEFT, state= DISABLED, textvariable=E_Corona)
+txtCorona.grid(row=4,column=1)
+
+txtBudweiser= Entry(Drinks_F,font=('arial',16,'bold'),bd=8, width=6, justify=LEFT, state= DISABLED, textvariable=E_Budweiser)
+txtBudweiser.grid(row=5,column=1)
+
+txtHoegaarden= Entry(Drinks_F,font=('arial',16,'bold'),bd=8, width=6, justify=LEFT, state= DISABLED, textvariable=E_Hoegaarden)
+txtHoegaarden.grid(row=6,column=1)
+
+txtHeineken= Entry(Drinks_F,font=('arial',16,'bold'),bd=8, width=6, justify=LEFT, state= DISABLED, textvariable=E_Heineken)
+txtHeineken.grid(row=7,column=1)
+
