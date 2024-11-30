@@ -214,3 +214,175 @@ class funcdeclare:
         TT=((PriceofDrinks + PriceofDishes + 2.5) * 0.5)
         TC="Rs", str('%.2f'%(PriceofDishes + PriceofDrinks + 2.5 + TT))
         TotalCost.set(TC)
+
+     def chkThumbsup(self):
+        if(var1.get()==1):
+            txtThumbsup.configure(state= NORMAL)
+            txtThumbsup.focus()
+            txtThumbsup.delete('0', END)
+            E_Thumbsup.set("")
+        elif(var1.get()==0):
+            txtThumbsup.configure(state= DISABLED)
+            E_Thumbsup.set("0")
+    def chkRedbull(self):
+        if(var2.get()==1):
+            txtRedbull.configure(state= NORMAL)
+            txtRedbull.focus()
+            txtRedbull.delete('0', END)
+            E_Redbull.set("")
+        elif(var2.get()==0):
+            txtRedbull.configure(state= DISABLED)
+            E_Redbull.set("0")
+    def chkSevenup(self):
+        if(var3.get()==1):
+            txtSevenup.configure(state= NORMAL)
+            txtSevenup.focus()
+            txtSevenup.delete('0', END)
+            E_Sevenup.set("")
+        elif(var3.get()==0):
+            txtSevenup.configure(state= DISABLED)
+            E_Sevenup.set("0")
+    def chkBira(self):
+        if(var4.get()==1):
+            txtBira.configure(state= NORMAL)
+            txtBira.focus()
+            txtBira.delete('0', END)
+            E_Bira.set("")
+        elif(var4.get()==0):
+            txtBira.configure(state= DISABLED)
+            E_Bira.set("0")
+    def chkCorona(self):
+        if(var5.get()==1):
+            txtCorona.configure(state= NORMAL)
+            txtCorona.focus()
+            txtCorona.delete('0', END)
+            E_Corona.set("")
+        elif(var5.get()==0):
+            txtCorona.configure(state= DISABLED)
+            E_Corona.set("0")
+    def chkBudweiser(self):
+        if(var6.get()==1):
+            txtBudweiser.configure(state= NORMAL)
+            txtBudweiser.focus()
+            txtBudweiser.delete('0', END)
+            E_Budweiser.set("")
+        elif(var6.get()==0):
+            txtBudweiser.configure(state= DISABLED)
+            E_Budweiser.set("0")
+    def chkHoegaarden(self):
+        if(var7.get()==1):
+            txtHoegaarden.configure(state= NORMAL)
+            txtHoegaarden.focus()
+            txtHoegaarden.delete('0', END)
+            E_Hoegaarden.set("")
+        elif(var7.get()==0):
+            txtHoegaarden.configure(state= DISABLED)
+            E_Hoegaarden.set("0")
+    def chkHeineken(self):
+        if(var8.get()==1):
+            txtHeineken.configure(state= NORMAL)
+            txtHeineken.focus()
+            txtHeineken.delete('0', END)
+            E_Heineken.set("")
+        elif(var8.get()==0):
+            txtHeineken.configure(state= DISABLED)
+            E_Heineken.set("0")
+    def chkRoganjosh(self):
+        if(var9.get()==1):
+            txtRoganjosh.configure(state= NORMAL)
+            txtRoganjosh.focus()
+            txtRoganjosh.delete('0', END)
+            E_Roganjosh.set("")
+        elif(var9.get()==0):
+            txtRoganjosh.configure(state= DISABLED)
+            E_Roganjosh.set("0")
+    def chkButterchicken(self):
+        if(var10.get()==1):
+            txtButterChicken.configure(state= NORMAL)
+            txtButterChicken.focus()
+            txtButterChicken.delete('0', END)
+            E_Butterchicken.set("")
+        elif(var10.get()==0):
+            txtButterChicken.configure(state= DISABLED)
+            E_Butterchicken.set("0")
+    def chkTikkamasala(self):
+        if(var11.get()==1):
+            txtTikkamasala.configure(state= NORMAL)
+            txtTikkamasala.focus()
+            txtTikkamasala.delete('0', END)
+            E_Tikkamasala.set("")
+        elif(var11.get()==0):
+            txtTikkamasala.configure(state= DISABLED)
+            E_Tikkamasala.set("0")
+    def chkBhuna(self):
+        if(var12.get()==1):
+            txtBhuna.configure(state= NORMAL)
+            txtBhuna.focus()
+            txtBhuna.delete('0', END)
+            E_Bhuna.set("")
+        elif(var12.get()==0):
+            txtBhuna.configure(state= DISABLED)
+            E_Bhuna.set("0")
+    def chkHybiryani(self):
+        if(var13.get()==1):
+            txtHybiryani.configure(state= NORMAL)
+            txtHybiryani.focus()
+            txtHybiryani.delete('0', END)
+            E_Hybiryani.set("")
+        elif(var13.get()==0):
+            txtHybiryani.configure(state= DISABLED)
+            E_Hybiryani.set("0")
+    def chkDumbiryani(self):
+        if(var14.get()==1):
+            txtDumbiryani.configure(state= NORMAL)
+            txtDumbiryani.focus()
+            txtDumbiryani.delete('0', END)
+            E_Dumbiryani.set("")
+        elif(var14.get()==0):
+            txtDumbiryani.configure(state= DISABLED)
+            E_Dumbiryani.set("0")
+    def chkKadhai(self):
+        if(var15.get()==1):
+            txtKadhai.configure(state= NORMAL)
+            txtKadhai.focus()
+            txtKadhai.delete('0', END)
+            E_Kadhai.set("")
+        elif(var15.get()==0):
+            txtKadhai.configure(state= DISABLED)
+            E_Kadhai.set("0")
+    def chkChefspecial(self):
+        if(var16.get()==1):
+            txtChefspecial.configure(state= NORMAL)
+            txtChefspecial.focus()
+            txtChefspecial.delete('0', END)
+            E_Chefspecial.set("")
+        elif(var16.get()==0):
+            txtChefspecial.configure(state= DISABLED)
+            E_Chefspecial.set("0")
+    def Receipt(self):
+        txtReceipt.delete("1.0",END)
+        x= random.randint(10903, 609235)
+        randomRef= str(x)
+        Receipt_Ref.set("BILL" + randomRef)
+
+        txtReceipt.insert(END, 'Receipt Ref:\t\t\t' + Receipt_Ref.get() + "\t" + DateofOrder.get() + "\n")
+        txtReceipt.insert(END, 'Item:\t\t\t' + "No of Items\n")
+        txtReceipt.insert(END, 'Thumbsup: \t\t\t\t' + E_Thumbsup.get() + "\n")
+        txtReceipt.insert(END, 'Red Bull: \t\t\t\t' + E_Redbull.get() + "\n")
+        txtReceipt.insert(END, '7Up: \t\t\t\t' + E_Sevenup.get() + "\n")
+        txtReceipt.insert(END, 'Bira: \t\t\t\t' + E_Bira.get() + "\n")
+        txtReceipt.insert(END, 'Corona: \t\t\t\t' + E_Corona.get() + "\n")
+        txtReceipt.insert(END, 'Budweiser: \t\t\t\t' + E_Budweiser.get() + "\n")
+        txtReceipt.insert(END, 'Hoegaarden: \t\t\t\t' + E_Hoegaarden.get() + "\n")
+        txtReceipt.insert(END, 'Heineken: \t\t\t\t' + E_Heineken.get() + "\n")
+        txtReceipt.insert(END, 'Chicken Rogan Josh Biryani: \t\t\t\t' + E_Roganjosh.get() + "\n")
+        txtReceipt.insert(END, 'Butter Chicken Biryani: \t\t\t\t' + E_Butterchicken.get() + "\n")
+        txtReceipt.insert(END, 'Chicken Tikka Masala Biryani: \t\t\t\t' + E_Tikkamasala.get() + "\n")
+        txtReceipt.insert(END, 'Chicken Bhuna Biryani: \t\t\t\t' + E_Bhuna.get() + "\n")
+        txtReceipt.insert(END, 'Chicken Hyderabadi Biryani: \t\t\t\t' + E_Hybiryani.get() + "\n")
+        txtReceipt.insert(END, 'Chicken Dum Biryani: \t\t\t\t' + E_Dumbiryani.get() + "\n")
+        txtReceipt.insert(END, 'Chicken Kadhai Biryani: \t\t\t\t' + E_Kadhai.get() + "\n")
+        txtReceipt.insert(END, 'Chef\'s special Biryani: \t\t\t\t' + E_Chefspecial.get() + "\n")
+
+obj=funcdeclare()
+
