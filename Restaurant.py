@@ -433,3 +433,45 @@ txtHoegaarden.grid(row=6,column=1)
 txtHeineken= Entry(Drinks_F,font=('arial',16,'bold'),bd=8, width=6, justify=LEFT, state= DISABLED, textvariable=E_Heineken)
 txtHeineken.grid(row=7,column=1)
 
+
+
+#===========================================Chicken Dishes=================================================================
+
+Roganjosh=Checkbutton(Chickdish_F, text='Chicken Rogan Josh Biryani', variable=var9, onvalue=1, offvalue=0, font=('arial',16,'bold')
+                  ,bg= "Powder Blue", command=obj.chkRoganjosh).grid(row=0,sticky=W)
+ButterChicken=Checkbutton(Chickdish_F, text='Butter Chicken Biryani', variable=var10, onvalue=1, offvalue=0, font=('arial',16,'bold')
+                  ,bg= "Powder Blue", command=obj.chkButterchicken).grid(row=1,sticky=W)
+Tikkamasala=Checkbutton(Chickdish_F, text='Chicken Tikka Masala Biryani', variable=var11, onvalue=1, offvalue=0, font=('arial',16,'bold')
+                  ,bg= "Powder Blue",command=obj.chkTikkamasala).grid(row=2,sticky=W)
+Bhuna=Checkbutton(Chickdish_F, text='Chicken Bhuna Biryani', variable=var12, onvalue=1, offvalue=0, font=('arial',16,'bold')
+                  ,bg= "Powder Blue", command=obj.chkBhuna).grid(row=3,sticky=W)
+Hybiryani=Checkbutton(Chickdish_F, text='Chicken Hyderabadi Biryani', variable=var13, onvalue=1, offvalue=0, font=('arial',16,'bold')
+                  ,bg= "Powder Blue", command=obj.chkHybiryani).grid(row=4,sticky=W)
+Dumbiryani=Checkbutton(Chickdish_F, text='Chicken Dum Biryani', variable=var14, onvalue=1, offvalue=0, font=('arial',16,'bold')
+                  ,bg= "Powder Blue", command=obj.chkDumbiryani).grid(row=5,sticky=W)
+Kadhai=Checkbutton(Chickdish_F, text='Chicken Kadhai Biryani', variable=var15, onvalue=1, offvalue=0, font=('arial',16,'bold')
+                  ,bg= "Powder Blue", command=obj.chkKadhai).grid(row=6,sticky=W)
+Chefspecial=Checkbutton(Chickdish_F, text='Chef\'s special Chicken Biryani', variable=var16, onvalue=1, offvalue=0, font=('arial',16,'bold')
+                  ,bg= "Powder Blue", command=obj.chkChefspecial).grid(row=7,sticky=W)
+
+
+
+#===========================================Entry Box for Chicken Dishes=====================================================
+
+
+txtRoganjosh= Entry(Chickdish_F,font=('arial',16,'bold'),bd=8, width=10, justify=LEFT, state= DISABLED, textvariable=E_Roganjosh)
+txtRoganjosh.grid(row=0,column=1)
+txtButterChicken= Entry(Chickdish_F,font=('arial',16,'bold'),bd=8, width=10, justify=LEFT, state= DISABLED, textvariable=E_Butterchicken)
+txtButterChicken.grid(row=1,column=1)
+txtTikkamasala= Entry(Chickdish_F,font=('arial',16,'bold'),bd=8, width=10, justify=LEFT, state= DISABLED, textvariable=E_Tikkamasala)
+txtTikkamasala.grid(row=2,column=1)
+txtBhuna= Entry(Chickdish_F,font=('arial',16,'bold'),bd=8, width=10, justify=LEFT, state= DISABLED, textvariable=E_Bhuna)
+txtBhuna.grid(row=3,column=1)
+txtHybiryani= Entry(Chickdish_F,font=('arial',16,'bold'),bd=8, width=10, justify=LEFT, state= DISABLED, textvariable=E_Hybiryani)
+txtHybiryani.grid(row=4,column=1)
+txtDumbiryani= Entry(Chickdish_F,font=('arial',16,'bold'),bd=8, width=10, justify=LEFT, state= DISABLED, textvariable=E_Dumbiryani)
+txtDumbiryani.grid(row=5,column=1)
+txtKadhai= Entry(Chickdish_F,font=('arial',16,'bold'),bd=8, width=10, justify=LEFT, state= DISABLED, textvariable=E_Kadhai)
+txtKadhai.grid(row=6,column=1)
+txtChefspecial= Entry(Chickdish_F,font=('arial',16,'bold'),bd=8, width=10, justify=LEFT, state= DISABLED, textvariable=E_Chefspecial)
+txtChefspecial.grid(row=7,column=1)
