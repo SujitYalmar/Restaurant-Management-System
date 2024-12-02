@@ -475,3 +475,21 @@ txtKadhai= Entry(Chickdish_F,font=('arial',16,'bold'),bd=8, width=10, justify=LE
 txtKadhai.grid(row=6,column=1)
 txtChefspecial= Entry(Chickdish_F,font=('arial',16,'bold'),bd=8, width=10, justify=LEFT, state= DISABLED, textvariable=E_Chefspecial)
 txtChefspecial.grid(row=7,column=1)
+
+#=======================================================Total Cost=========================================================
+lblCostofDrinks =Label(Cost_F, font=('arial',14,'bold'),text='Cost of Drinks\t',bg='Powder Blue',fg='black')
+lblCostofDrinks.grid(row=0,column=0, sticky=W)
+txtCostofDrinks= Entry(Cost_F, width=40, bg='white', bd=7, font=('arial',7,'bold'), justify=RIGHT, textvariable=CostofDrinks)
+txtCostofDrinks.grid(row=0, column=1)
+
+lblCostofDishes =Label(Cost_F, font=('arial',14,'bold'),text='Cost of Dishes\t',bg='Powder Blue',fg='black')
+lblCostofDishes.grid(row=1,column=0, sticky=W)
+txtCostofDishes= Entry(Cost_F, width=40, bg='white', bd=7, font=('arial',7,'bold'), justify=RIGHT, textvariable=CostofDishes)
+txtCostofDishes.grid(row=1, column=1)
+
+lblServiceCharge =Label(Cost_F, font=('arial',14,'bold'),text='Service Charge\t',bg='Powder Blue',fg='black')
+lblServiceCharge.grid(row=2,column=0, sticky=W)
+lblServiceCharge= Entry(Cost_F, bg='white',width=40, bd=7, font=('arial',7,'bold'), justify=RIGHT, textvariable=ServiceCharge)
+lblServiceCharge.grid(row=2, column=1)
+
+
