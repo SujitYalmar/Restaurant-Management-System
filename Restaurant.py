@@ -492,4 +492,20 @@ lblServiceCharge.grid(row=2,column=0, sticky=W)
 lblServiceCharge= Entry(Cost_F, bg='white',width=40, bd=7, font=('arial',7,'bold'), justify=RIGHT, textvariable=ServiceCharge)
 lblServiceCharge.grid(row=2, column=1)
 
+#=======================================================Payment Information================================================
+lblPaidTax =Label(Cost_F, font=('arial',14,'bold'),text='\tPaid Tax',bg='Powder Blue',fg='black')
+lblPaidTax.grid(row=0,column=2, sticky=W)
+txtPaidTax= Entry(Cost_F, width=40, bg='white', bd=7, font=('arial',7,'bold'), justify=RIGHT, textvariable=PaidTax)
+txtPaidTax.grid(row=0, column=3)
+
+lblSubTotal =Label(Cost_F, font=('arial',14,'bold'),text='\tSub Total',bg='Powder Blue',fg='black')
+lblSubTotal.grid(row=1,column=2, sticky=W)
+txtSubTotal= Entry(Cost_F, width=40, bg='white', bd=7, font=('arial',7,'bold'), justify=RIGHT, textvariable=SubTotal)
+txtSubTotal.grid(row=1, column=3)
+
+lblTotalCost =Label(Cost_F, font=('arial',14,'bold'),text='\tTotal Cost',bg='Powder Blue',fg='black')
+lblTotalCost.grid(row=2,column=2, sticky=W)
+txtTotalCost= Entry(Cost_F, width=40, bg='white', bd=7, font=('arial',7,'bold'), justify=RIGHT, textvariable=TotalCost)
+txtTotalCost.grid(row=2, column=3)
+
 
