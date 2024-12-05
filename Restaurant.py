@@ -509,3 +509,22 @@ txtTotalCost= Entry(Cost_F, width=40, bg='white', bd=7, font=('arial',7,'bold'),
 txtTotalCost.grid(row=2, column=3)
 
 
+#=======================================================Receipt============================================================
+
+txtReceipt= Text(Receipt_F, width=46, height=12, bg='white', bd=4, font=('arial',12,'bold'))
+txtReceipt.grid(row=0, column=0)
+
+#=======================================================Buttons============================================================
+
+btnTotal=Button(Buttons_F, padx=16, pady=1, bd=7, fg='black', font=('arial',16,'bold'),
+                width=4, text="Total", bg="Powder Blue", command=obj.CostofItem).grid(row=0,column=0)
+btnReceipt=Button(Buttons_F, padx=16, pady=1, bd=7, fg='black', font=('arial',16,'bold'),
+                width=4, text="Receipt", bg="Powder Blue", command=obj.Receipt).grid(row=0,column=1)
+btnReset=Button(Buttons_F, padx=16, pady=1, bd=7, fg='black', font=('arial',16,'bold'),
+                width=4, text="Reset", bg="Powder Blue", command=obj.Reset).grid(row=0,column=2)
+btnExit=Button(Buttons_F, padx=16, pady=1, bd=7, fg='black', font=('arial',16,'bold'),
+                width=4, text="Exit", bg="Powder Blue", command=obj.iExit).grid(row=0,column=3)
+
+
+
+
